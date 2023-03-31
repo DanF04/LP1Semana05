@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValuesAndReferences", "ValuesAndReferences\ValuesAndReferences.csproj", "{8807C595-0968-4DB4-9664-CB11DE4AF94E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tempo", "Tempo\Tempo.csproj", "{07349391-76E2-4F16-BD44-ADA4D8D03959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8807C595-0968-4DB4-9664-CB11DE4AF94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8807C595-0968-4DB4-9664-CB11DE4AF94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8807C595-0968-4DB4-9664-CB11DE4AF94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8807C595-0968-4DB4-9664-CB11DE4AF94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07349391-76E2-4F16-BD44-ADA4D8D03959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07349391-76E2-4F16-BD44-ADA4D8D03959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07349391-76E2-4F16-BD44-ADA4D8D03959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07349391-76E2-4F16-BD44-ADA4D8D03959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
