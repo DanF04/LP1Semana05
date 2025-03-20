@@ -12,9 +12,12 @@ namespace LevelOne
         {
             Console.WriteLine("Hello LP1!");
         }
+        /// <summary>
+        /// Method that returns nothing
+        /// </summary>
         private static void Method ()
         {
-            
+
         }
     }
 }
