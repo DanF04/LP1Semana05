@@ -2,6 +2,9 @@
 
 namespace LevelOne
 {
+    /// <summary>
+    /// Class that has a method that prints a message
+    /// </summary>
     public class Program
     {
         /// <summary>
