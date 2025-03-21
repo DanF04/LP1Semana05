@@ -1,11 +1,13 @@
 ﻿using System;
 using System.IO;
 using Spectre.Console;
+using SoGoodLib;
 
 class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine(SoGoodClass.SoGoodMethod());
         
         string defaultImage = "tux.jpg";
         int defaultWidth = 24;
